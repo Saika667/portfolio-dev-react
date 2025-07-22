@@ -19,6 +19,8 @@ const StyledGlobalStyle = createGlobalStyle`
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         -webkit-text-size-adjust: 100%;
+        position: relative;
+        min-height: 100vh;
     }
 
     h1 {

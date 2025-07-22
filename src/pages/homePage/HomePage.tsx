@@ -1,3 +1,4 @@
+import FormationsSection from "../../components/formationsSection/FormationsSection";
 import Hero from "../../components/hero/Hero";
 
 function HomePage() {
@@ -5,6 +6,7 @@ function HomePage() {
   return (
     <>
       <Hero />
+      <FormationsSection />
     </>
   )
 }

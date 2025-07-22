@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { NavContainer, NavLink } from "./NavStyle";
-import { useAppSelector } from "../../store/hooks";
+import { useAppSelector } from "../../app/hooks";
 import gsap from "gsap";
 
 function Nav() {

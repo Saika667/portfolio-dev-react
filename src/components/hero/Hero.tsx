@@ -7,8 +7,8 @@ import { getRandomNumber } from "../../utils/numbers";
 import Saika from "../../assets/saika.svg?react";
 import Test from "../../assets/test.svg?react";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
-import { useAppDispatch } from "../../store/hooks";
-import { setHeroAnimationComplete, setNavVisible } from "../../store/slices/animationSlice";
+import { useAppDispatch } from "../../app/hooks";
+import { setHeroAnimationComplete, setNavVisible } from "../../feature/animationSlice";
 
 function Hero() {
     const dispatch = useAppDispatch();
